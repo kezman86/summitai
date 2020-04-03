@@ -710,7 +710,6 @@ class SummitAIApp :
         df = pd.read_csv (  filename )
         df = df[pd.notnull ( df['ProductModule'] )]
         df = df[pd.isnull(df['CustomerCaseNumber'])]
-
         dbcl = self.db.dbclient
 
         dbcases = dbcl['summitai']['cases']
