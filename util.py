@@ -727,8 +727,6 @@ class SummitAIApp :
             dbcases.update ( key , data , upsert = True )
 
 
-
-
     def modifyAcct( self, model ):
         dbcases = self.db.dbclient['summitai']['cases']
         allNewCases = list ( dbcases.find (
