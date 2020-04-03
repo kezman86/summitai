@@ -1,0 +1,35 @@
+{
+  "appconfig":
+    {
+      "database" :
+      {
+      "dbhost": "",
+      "dbname": "",
+      "dbuser": "",
+      "dbpass": ""
+      },
+
+    "salesforce":
+    {
+      "username": "",
+      "password": "",
+      "security_token": ""
+    },
+    "mail":
+    {
+      "smtp_server": ""
+    },
+    "jira":
+    {
+      "server": "",
+      "username": "",
+      "password": "",
+      "sslVerify": "False"
+    },
+      "logger":
+      {
+        "file": "",
+        "level": ""
+      }
+    }
+}
